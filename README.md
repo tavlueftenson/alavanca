@@ -22,10 +22,6 @@ const CONTATO = {
 
 O número vai só com dígitos: 55, o DDD e o número. Depois disso, todos os botões de WhatsApp do site passam a abrir a conversa, e o formulário de contato envia a mensagem pronta pelo WhatsApp.
 
-## O que ainda falta preencher em `index.html`
-
-Procure pelos trechos entre colchetes, como `[FOTO]`, `[ÁREA DE ATUAÇÃO]` e os parágrafos sobre cada sócio.
-
 ## Domínio próprio
 
 Quando houver um domínio, configure em Settings › Pages › Custom domain e troque o endereço nas linhas `og:url` e `og:image` do `index.html`.

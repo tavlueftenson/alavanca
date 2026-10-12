@@ -400,41 +400,6 @@ a:hover { color: var(--azul); }
 .motivo p { font-size: 17px; }
 .check { width: 28px; height: 28px; fill: none; stroke: var(--salvia); stroke-width: 2.4; stroke-linecap: round; stroke-linejoin: round; }
 
-.grade-socios {
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
-  gap: 24px;
-}
-.socio {
-  padding: 28px;
-  background: var(--branco);
-  border: 1px solid var(--linha);
-  border-radius: var(--raio);
-  display: flex;
-  gap: 24px;
-  align-items: flex-start;
-}
-.socio-foto {
-  width: 120px;
-  height: 140px;
-  flex: none;
-  border-radius: 12px;
-  background: var(--areia);
-  border: 1px dashed var(--linha-forte);
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  gap: 6px;
-  color: var(--cinza);
-  font-family: var(--fonte-mono);
-  font-size: 12px;
-}
-.socio-foto svg { width: 36px; height: 36px; fill: none; stroke: var(--cinza); stroke-width: 1.6; stroke-linecap: round; stroke-linejoin: round; }
-.socio h3 { font-size: 24px; }
-.socio-funcao { margin: 6px 0 10px; font-family: var(--fonte-mono); font-size: 12px; letter-spacing: .1em; text-transform: uppercase; color: var(--cobre); }
-.socio-texto { font-size: 17px; color: var(--cinza); }
-
 .perguntas details { border-bottom: 1px solid var(--linha); }
 .perguntas details:first-child { border-top: 1px solid var(--linha); }
 .perguntas summary {
@@ -647,13 +612,6 @@ a:hover { color: var(--azul); }
   .check { width: 22px; height: 22px; grid-row: span 2; margin-top: 3px; }
   .motivo h3 { font-size: 17px; font-family: var(--fonte-texto); font-weight: 600; }
   .motivo p { font-size: 15px; line-height: 1.45; }
-
-  .grade-socios { grid-template-columns: minmax(0, 1fr); gap: 16px; }
-  .socio { padding: 20px; flex-wrap: wrap; gap: 16px; }
-  .socio-foto { width: 84px; height: 96px; }
-  .socio > div:last-child { flex: 1 1 180px; min-width: 0; }
-  .socio h3 { font-size: 22px; }
-  .socio-texto { font-size: 16px; }
 
   .perguntas summary { font-size: 17px; min-height: 58px; }
   .perguntas details p { font-size: 16px; }
