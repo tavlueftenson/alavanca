@@ -57,7 +57,13 @@ const MENSAGEM_PADRAO = "Olá! Vim pelo site da Alavanca e gostaria de conversar
   const botaoMenu = document.querySelector(".botao-menu-celular");
   const menu = document.getElementById("menu");
 
+  const corTema = document.querySelector('meta[name="theme-color"]');
+  function ajustarCorTema(menuAberto) {
+    if (corTema) corTema.setAttribute("content", menuAberto ? "#1F3A4A" : "#F5F1EA");
+  }
+
   function fecharMenu() {
+    ajustarCorTema(false);
     corpo.classList.remove("menu-aberto");
     botaoMenu.setAttribute("aria-expanded", "false");
     botaoMenu.setAttribute("aria-label", "Abrir menu");
@@ -65,6 +71,7 @@ const MENSAGEM_PADRAO = "Olá! Vim pelo site da Alavanca e gostaria de conversar
   botaoMenu.addEventListener("click", function () {
     const abrir = !corpo.classList.contains("menu-aberto");
     corpo.classList.toggle("menu-aberto", abrir);
+    ajustarCorTema(abrir);
     botaoMenu.setAttribute("aria-expanded", String(abrir));
     botaoMenu.setAttribute("aria-label", abrir ? "Fechar menu" : "Abrir menu");
   });
