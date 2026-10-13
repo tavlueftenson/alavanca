@@ -1,15 +1,15 @@
 /* =========================================================
-   CONTATOS DA ALAVANCA
+   CONTATOS DA MANOVELLA
    Preencha aqui e todo o site se atualiza sozinho.
    whatsapp: só números, com 55 + DDD + número. Ex.: "5554999998888"
-   email:    ex.: "contato@alavanca.com.br"
+   email:    ex.: "contato@manovella.com.br"
    ========================================================= */
 const CONTATO = {
   whatsapp: "",
   email: ""
 };
 
-const MENSAGEM_PADRAO = "Olá! Vim pelo site da Alavanca e gostaria de conversar.";
+const MENSAGEM_PADRAO = "Olá! Vim pelo site da Manovella e gostaria de conversar.";
 
 (function () {
   const numero = (CONTATO.whatsapp || "").replace(/\D/g, "");
@@ -122,7 +122,7 @@ const MENSAGEM_PADRAO = "Olá! Vim pelo site da Alavanca e gostaria de conversar
     }
     aviso.hidden = true;
 
-    let texto = "Olá! Vim pelo site da Alavanca.\n\nNome: " + nome;
+    let texto = "Olá! Vim pelo site da Manovella.\n\nNome: " + nome;
     if (empresa) texto += "\nEmpresa: " + empresa;
     if (setor) texto += "\nSetor: " + setor;
     texto += "\n\nTarefa que mais toma tempo da equipe:\n" + tarefa;

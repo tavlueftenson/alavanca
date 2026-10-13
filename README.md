@@ -1,6 +1,6 @@
-# Alavanca · ferramentaria digital
+# Manovella · ferramentaria digital
 
-Site da Alavanca, publicado pelo GitHub Pages em https://tavlueftenson.github.io/alavanca/
+Site da Manovella, publicado pelo GitHub Pages em https://tavlueftenson.github.io/manovella/
 
 ## Arquivos
 
@@ -16,7 +16,7 @@ Abra `site.js` e preencha o bloco `CONTATO` no começo do arquivo:
 ```js
 const CONTATO = {
   whatsapp: "5554999998888",
-  email: "contato@alavanca.com.br"
+  email: "contato@manovella.com.br"
 };
 ```
 

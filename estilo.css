@@ -1,4 +1,4 @@
-/* Alavanca · ferramentaria digital */
+/* Manovella · ferramentaria digital */
 
 :root {
   color-scheme: only light;
@@ -558,9 +558,11 @@ a:hover { color: var(--azul); }
   body.menu-aberto .topo { background: var(--azul); border-bottom-color: var(--azul-linha); }
   body.menu-aberto .marca-nome { color: var(--papel); }
   body.menu-aberto .marca-descritor { color: var(--cobre-claro); }
-  body.menu-aberto .marca-simbolo path, body.menu-aberto .marca-simbolo circle { fill: var(--papel); stroke: var(--papel); }
-  body.menu-aberto .marca-simbolo circle { fill: var(--azul); stroke: none; }
-  body.menu-aberto .marca-simbolo rect { fill: var(--cobre-claro); }
+  body.menu-aberto .marca-simbolo .simbolo-braco { stroke: var(--papel); }
+  body.menu-aberto .marca-simbolo .simbolo-cubo { fill: var(--papel); }
+  body.menu-aberto .marca-simbolo .simbolo-furo { fill: var(--azul); }
+  body.menu-aberto .marca-simbolo .simbolo-punho { fill: var(--cobre-claro); }
+  body.menu-aberto .marca-simbolo .simbolo-arco { stroke: var(--cobre-claro); }
   body.menu-aberto .botao-menu-celular { color: var(--papel); }
   body.menu-aberto .botao-menu-celular .icone-abrir { display: none; }
   body.menu-aberto .botao-menu-celular .icone-fechar { display: block; }
